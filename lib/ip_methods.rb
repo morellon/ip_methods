@@ -50,9 +50,7 @@ module IpMethods
   end
 
   def generate_ips
-    ips = []
-    (network_bin+1..broadcast_bin-1).each {|ip_bin| ips << IpMethods.from_bin(ip_bin)}
-    ips
+    (network_bin+1..broadcast_bin-1).map {|ip_bin| IpMethods.from_bin(ip_bin)}
   end
 
   def to_bin
