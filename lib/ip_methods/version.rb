@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 module IpMethods
   module Version  #:nodoc: all
     MAJOR = 0

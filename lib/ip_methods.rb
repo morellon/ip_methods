@@ -1,6 +1,6 @@
+# -*- coding: UTF-8 -*-
 require "ip_methods/version"
 
-# -*- coding: UTF-8 -*-
 module IpMethods
   IPV4_PATTERN = /^(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)(?:\.(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)){3}$/
   IPV4_BIT_WIDTH = 32
