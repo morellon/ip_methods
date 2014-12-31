@@ -2,7 +2,7 @@
 require "ip_methods/version"
 
 module IpMethods
-  IPV4_PATTERN = /^(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)(?:\.(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)){3}$/
+  IPV4_PATTERN = /\A(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)(?:\.(?:25[0-5]|(?:2[0-4]|1\d|[1-9])?\d)){3}\z/
   IPV4_BIT_WIDTH = 32
   IPV4_BIT_OCTET = 8
 
